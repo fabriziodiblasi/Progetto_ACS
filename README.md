@@ -7,6 +7,9 @@ sudo ip link set can0 type can bitrate 500000
 
 sudo ip link set up can0
 
+# Impostazione PinOut ARDUINO
+### Default SPI_CS_PIN = 9 
+
 # Link utili
 http://wiki.seeedstudio.com/CAN-BUS_Shield_V1.2/
 
@@ -17,4 +20,7 @@ https://seeeddoc.github.io/CAN-BUS_Shield/
 https://www.seeedstudio.com/blog/2019/11/27/introduction-to-can-bus-and-how-to-use-it-with-arduino/
 
 https://wiki.dfrobot.com/CAN-BUS_Shield_V2__SKU__DFR0370_
+
+
+
 
