@@ -12,6 +12,7 @@ sudo candump can0
 ### Default SPI_CS_PIN = 9 
 
 # Link utili
+https://www.peak-system.com/produktcd/Pdf/English/PCAN-USB_UserMan_eng.pdf
 
 https://github.com/Seeed-Studio/CAN_BUS_Shield
 
