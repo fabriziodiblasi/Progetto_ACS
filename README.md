@@ -5,6 +5,7 @@ Design and implementation of a "sensor" ECU. The ECU will take as input the form
 ```bash
 sudo ip link set can0 type can bitrate 500000
 sudo ip link set up can0
+sudo candump can0
 ```
 
 # Impostazione PinOut ARDUINO
