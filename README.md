@@ -12,6 +12,9 @@ sudo candump can0
 ### Default SPI_CS_PIN = 9 
 
 # Link utili
+
+https://github.com/Seeed-Studio/CAN_BUS_Shield
+
 http://wiki.seeedstudio.com/CAN-BUS_Shield_V1.2/
 
 https://www.seeedstudio.com/CAN-BUS-Shield-V1-2-p-2256.html
