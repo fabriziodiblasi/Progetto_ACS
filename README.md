@@ -9,3 +9,12 @@ sudo ip link set up can0
 
 # Link utili
 http://wiki.seeedstudio.com/CAN-BUS_Shield_V1.2/
+
+https://www.seeedstudio.com/CAN-BUS-Shield-V1-2-p-2256.html
+
+https://seeeddoc.github.io/CAN-BUS_Shield/
+
+https://www.seeedstudio.com/blog/2019/11/27/introduction-to-can-bus-and-how-to-use-it-with-arduino/
+
+https://wiki.dfrobot.com/CAN-BUS_Shield_V2__SKU__DFR0370_
+
