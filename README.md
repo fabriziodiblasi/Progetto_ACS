@@ -11,6 +11,11 @@ sudo candump can0
 # Impostazione PinOut ARDUINO
 ### Default SPI_CS_PIN = 9 
 
+# DBC
+https://cantools.readthedocs.io/en/latest/
+http://socialledge.com/sjsu/index.php/DBC_Format
+https://github.com/commaai/opendbc
+
 # Link utili
 https://www.peak-system.com/produktcd/Pdf/English/PCAN-USB_UserMan_eng.pdf
 
