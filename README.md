@@ -19,6 +19,6 @@ Questi dati sono stati pacchettizzati all'interno di frame CAN-BUS.
 # Specifiche del messaggio CAN
 ```bash
 BO_67 IO_TEMP_HUM_INFO: 4 DHT11
-    MSG_HUMIDUTY: 0|8@0- (1,0) [20|90] "RH" 
+    MSG_HUMIDITY: 0|8@0- (1,0) [20|90] "RH" 
     MSG_TEMPERATURE: 8|8@0- (1,0) [0|50] "C" 
 ```
