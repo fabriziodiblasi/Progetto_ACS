@@ -12,6 +12,7 @@ sudo candump can0
 In questo progetto è stato utilizzato un sensore di temperatura DHT11, capace di fornire in output due segnali
 - Temperatura (°C)
 - Umidità     (％RH)
+
 [link datasheet](https://www.mouser.com/datasheet/2/758/DHT11-Technical-Data-Sheet-Translated-Version-1143054.pdf)
 
 Essendo la sensibilità molto scarsa, per i valori di tempertatura ed umidità sono state utilizzate due variabili intere.
