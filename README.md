@@ -13,6 +13,7 @@ In questo progetto è stato utilizzato un sensore di temperatura DHT11, capace d
 - Temperatura (°C)
 - Umidità     (％RH)
 [link datasheet](https://www.mouser.com/datasheet/2/758/DHT11-Technical-Data-Sheet-Translated-Version-1143054.pdf)
+
 Essendo la sensibilità molto scarsa, per i valori sono state utilizzate due variabili intere.
 Questi dati sono stati pacchettizzati all'interno di frame CAN-BUS.
 
