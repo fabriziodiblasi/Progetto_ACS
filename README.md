@@ -8,31 +8,17 @@ sudo ip link set up can0
 sudo candump can0
 ```
 
-# Impostazione PinOut ARDUINO
-### Default SPI_CS_PIN = 9 
+# Sensore adottato
+In questo progetto è stato utilizzato un sensore di temperatura DHT11, capace di fornire in output due segnali
+- Temperatura (°C)
+- Umidità     (％RH)
+[link datasheet](https://www.mouser.com/datasheet/2/758/DHT11-Technical-Data-Sheet-Translated-Version-1143054.pdf)
+Essendo la sensibilità molto scarsa, per i valori sono state utilizzate due variabili intere.
+Questi dati sono stati pacchettizzati all'interno di frame CAN-BUS.
 
-# DBC
-https://cantools.readthedocs.io/en/latest/
-
-http://socialledge.com/sjsu/index.php/DBC_Format
-
-https://github.com/commaai/opendbc
-
-# Link utili
-https://www.peak-system.com/produktcd/Pdf/English/PCAN-USB_UserMan_eng.pdf
-
-https://github.com/Seeed-Studio/CAN_BUS_Shield
-
-http://wiki.seeedstudio.com/CAN-BUS_Shield_V1.2/
-
-https://www.seeedstudio.com/CAN-BUS-Shield-V1-2-p-2256.html
-
-https://seeeddoc.github.io/CAN-BUS_Shield/
-
-https://www.seeedstudio.com/blog/2019/11/27/introduction-to-can-bus-and-how-to-use-it-with-arduino/
-
-https://wiki.dfrobot.com/CAN-BUS_Shield_V2__SKU__DFR0370_
-
-http://matthewcmcmillan.blogspot.com/2013/10/arduino-sending-data-over-can-bus.html
-
-
+# Specifiche del messaggio CAN
+```bash
+BO_67 IO_TEMP_HUM_INFO: 4 DHT11
+    MSG_HUMIDUTY: 0|8@0- (1,0) [20|90] "RH" 
+    MSG_TEMPERATURE: 8|8@0- (1,0) [0|50] "C" 
+```
