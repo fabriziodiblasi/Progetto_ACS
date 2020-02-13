@@ -16,9 +16,8 @@ In questo progetto è stato utilizzato un sensore di temperatura DHT11, capace d
 [link datasheet](https://www.mouser.com/datasheet/2/758/DHT11-Technical-Data-Sheet-Translated-Version-1143054.pdf)
 
 Essendo la sensibilità molto scarsa, per i valori di tempertatura ed umidità sono state utilizzate due variabili intere.
-Infine, tali dati sono stati pacchettizzati all'interno di frame CAN-BUS.
-Ai fini del progetto è stato utilizzato il seguente cavo USB in modo da fornire un interfaccia CAN reale al PC:
-
+Infine, tali dati sono stati pacchettizzati all'interno di frame CAN-BUS. \
+Ai fini del progetto è stato utilizzato il seguente cavo USB in modo da fornire un interfaccia CAN reale al PC: \
 [link datasheet cavo Peak](https://www.peak-system.com/produktcd/Pdf/English/PCAN-USB_UserMan_eng.pdf)
 
 # Specifiche del messaggio CAN
