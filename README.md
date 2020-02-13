@@ -24,3 +24,7 @@ BO_67 IO_TEMP_HUM_INFO: 4 DHT11
     MSG_HUMIDITY: 0|8@0- (1,0) [20|90] "RH" 
     MSG_TEMPERATURE: 8|8@0- (1,0) [0|50] "C" 
 ```
+
+Ai fini del progetto è stato utilizzato il seguente cavo USB in modo da fornire un interfaccia CAN reale al PC:
+
+[link datasheet cavo Peak](https://www.peak-system.com/produktcd/Pdf/English/PCAN-USB_UserMan_eng.pdf)
